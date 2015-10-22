@@ -1,0 +1,256 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
+-define:UNITY_5_2_1
+-define:UNITY_5_2
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_4_6_FEATURES
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_REFLECTION_BUFFERS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:UNITY_IPHONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_NETWORK
+-define:UNITY_IPHONE_API
+-define:UNITY_IOS
+-define:ENABLE_TEXTUREID_MAP
+-define:PLAYERCONNECTION_LISTENS_FIXED_PORT
+-define:DEBUGGER_LISTENS_FIXED_PORT
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_IL2CPP
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:ENABLE_IOS_ON_DEMAND_RESOURCES
+-define:ENABLE_IOS_APP_SLICING
+'Assets/Extensions/IOSDeploy/Scripts/Core/ISDSettings.cs'
+'Assets/Extensions/IOSNative/Core/IOSNative.cs'
+'Assets/Extensions/IOSNative/Core/IOSNativeAppEvents.cs'
+'Assets/Extensions/IOSNative/Core/IOSNativeSettings.cs'
+'Assets/Extensions/IOSNative/Core/IOSNativeUtility.cs'
+'Assets/Extensions/IOSNative/Core/ISN_CacheManager.cs'
+'Assets/Extensions/IOSNative/Core/ISN_Error.cs'
+'Assets/Extensions/IOSNative/Core/ISN_Singleton.cs'
+'Assets/Extensions/IOSNative/Enum/IOSDateTimePickerMode.cs'
+'Assets/Extensions/IOSNative/Enum/IOSDialogResult.cs'
+'Assets/Extensions/IOSNative/Enum/IOSGravity.cs'
+'Assets/Extensions/IOSNative/Enum/IOSStoreResultCode.cs'
+'Assets/Extensions/IOSNative/Enum/IOSTransactionErrorCode.cs'
+'Assets/Extensions/IOSNative/Enum/IOSUIUserNotificationType.cs'
+'Assets/Extensions/IOSNative/Enum/InAppPurchaseState.cs'
+'Assets/Extensions/IOSNative/Enum/iAdGravity.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Enum/GK_CollectionType.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Enum/GK_InviteRecipientResponse.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Enum/GK_MatchType.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Enum/GK_PhotoSize.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Enum/GK_TimeSpan.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Results/GK_AchievementProgressResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Results/GK_LeaderboardResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Results/GK_PlayerSignatureResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Results/GK_UserInfoLoadResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Results/GK_UserPhotoLoadResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Templates/GK_AchievementTemplate.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Templates/GK_Invite.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Templates/GK_LeaderBoardInfo.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Templates/GK_Leaderboard.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Templates/GK_LeaderboardSet.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Templates/GK_LocalPlayerScoreUpdateListener.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Templates/GK_Player.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Templates/GK_Score.cs'
+'Assets/Extensions/IOSNative/GameCenter/Generic/Templates/GK_ScoreCollection.cs'
+'Assets/Extensions/IOSNative/GameCenter/Manage/GameCenterInvitations.cs'
+'Assets/Extensions/IOSNative/GameCenter/Manage/GameCenterManager.cs'
+'Assets/Extensions/IOSNative/GameCenter/Manage/GameCenter_RTM.cs'
+'Assets/Extensions/IOSNative/GameCenter/Manage/GameCenter_TBM.cs'
+'Assets/Extensions/IOSNative/GameCenter/RTM/Enum/GK_MatchSendDataMode.cs'
+'Assets/Extensions/IOSNative/GameCenter/RTM/Enum/GK_PlayerConnectionState.cs'
+'Assets/Extensions/IOSNative/GameCenter/RTM/Results/GK_RTM_MatchStartedResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/RTM/Results/GK_RTM_QueryActivityResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/RTM/Templates/GK_RTM_Match.cs'
+'Assets/Extensions/IOSNative/GameCenter/TBM/Enum/GK_TurnBasedMatchOutcome.cs'
+'Assets/Extensions/IOSNative/GameCenter/TBM/Enum/GK_TurnBasedMatchStatus.cs'
+'Assets/Extensions/IOSNative/GameCenter/TBM/Enum/GK_TurnBasedParticipantStatus.cs'
+'Assets/Extensions/IOSNative/GameCenter/TBM/Results/GK_TBM_EndTrunResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/TBM/Results/GK_TBM_LoadMatchResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/TBM/Results/GK_TBM_LoadMatchesResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/TBM/Results/GK_TBM_MatchDataUpdateResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/TBM/Results/GK_TBM_MatchEndResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/TBM/Results/GK_TBM_MatchInitResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/TBM/Results/GK_TBM_MatchQuitResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/TBM/Results/GK_TBM_MatchRemovedResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/TBM/Results/GK_TBM_MatchTurnResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/TBM/Results/GK_TBM_RematchResult.cs'
+'Assets/Extensions/IOSNative/GameCenter/TBM/Templates/GK_TBM_Match.cs'
+'Assets/Extensions/IOSNative/GameCenter/TBM/Templates/GK_TBM_Participant.cs'
+'Assets/Extensions/IOSNative/Market/Enum/ISN_InAppPriceTier.cs'
+'Assets/Extensions/IOSNative/Market/Enum/ISN_InAppType.cs'
+'Assets/Extensions/IOSNative/Market/IOSBillingInitChecker.cs'
+'Assets/Extensions/IOSNative/Market/IOSInAppPurchaseManager.cs'
+'Assets/Extensions/IOSNative/Market/IOSNativeMarketBridge.cs'
+'Assets/Extensions/IOSNative/Market/IOSStoreProductView.cs'
+'Assets/Extensions/IOSNative/Market/Templates/IOSProductTemplate.cs'
+'Assets/Extensions/IOSNative/Market/Templates/IOSStoreKitRestoreResult.cs'
+'Assets/Extensions/IOSNative/Market/Templates/IOSStoreKitResult.cs'
+'Assets/Extensions/IOSNative/Market/Templates/IOSStoreKitVerificationResponse.cs'
+'Assets/Extensions/IOSNative/Notifications/DeviceTokenListener.cs'
+'Assets/Extensions/IOSNative/Notifications/Enum/ISN_NotificationType.cs'
+'Assets/Extensions/IOSNative/Notifications/IOSNotificationController.cs'
+'Assets/Extensions/IOSNative/Notifications/IOSNotificationDeviceToken.cs'
+'Assets/Extensions/IOSNative/Notifications/Models/ISN_LocalNotification.cs'
+'Assets/Extensions/IOSNative/Other/Camera/IOSCamera.cs'
+'Assets/Extensions/IOSNative/Other/Camera/IOSGalleryLoadImageFormat.cs'
+'Assets/Extensions/IOSNative/Other/Camera/IOSImagePickResult.cs'
+'Assets/Extensions/IOSNative/Other/Camera/ISN_ImageSource.cs'
+'Assets/Extensions/IOSNative/Other/Media/Controllers/ISN_MediaController.cs'
+'Assets/Extensions/IOSNative/Other/Media/Enum/MP_MusicPlaybackState.cs'
+'Assets/Extensions/IOSNative/Other/Media/Enum/MP_MusicRepeatMode.cs'
+'Assets/Extensions/IOSNative/Other/Media/Enum/MP_MusicShuffleMode.cs'
+'Assets/Extensions/IOSNative/Other/Media/Models/MP_MediaItem.cs'
+'Assets/Extensions/IOSNative/Other/Media/Results/MP_MediaPickerResult.cs'
+'Assets/Extensions/IOSNative/Other/System/IOSDateTimePicker.cs'
+'Assets/Extensions/IOSNative/Other/System/IOSSharedApplication.cs'
+'Assets/Extensions/IOSNative/Other/System/ISN_CheckUrlResult.cs'
+'Assets/Extensions/IOSNative/Other/System/ISN_Security.cs'
+'Assets/Extensions/IOSNative/Other/System/Templates/ISN_Locale.cs'
+'Assets/Extensions/IOSNative/Other/VIdeo/IOSVideoManager.cs'
+'Assets/Extensions/IOSNative/Other/VIdeo/ISN_ReplayKit.cs'
+'Assets/Extensions/IOSNative/Other/VIdeo/Results/ReplayKitVideoShareResult.cs'
+'Assets/Extensions/IOSNative/PopUps/IOSDialog.cs'
+'Assets/Extensions/IOSNative/PopUps/IOSMessage.cs'
+'Assets/Extensions/IOSNative/PopUps/IOSRateUsPopUp.cs'
+'Assets/Extensions/IOSNative/PopUps/base/BaseIOSPopup.cs'
+'Assets/Extensions/IOSNative/PopUps/base/IOSNativePopUpManager.cs'
+'Assets/Extensions/IOSNative/Social/IOSSocialManager.cs'
+'Assets/Extensions/IOSNative/Templates/ISN_Result.cs'
+'Assets/Extensions/IOSNative/Templates/Models/ISN_DeviceGUID.cs'
+'Assets/Extensions/IOSNative/Templates/Results/ISN_LoadLeaderboardsInfoResult.cs'
+'Assets/Extensions/IOSNative/Templates/Results/ISN_LocalReceiptResult.cs'
+'Assets/Extensions/IOSNative/iAd/iAdBanner.cs'
+'Assets/Extensions/IOSNative/iAd/iAdBannerController.cs'
+'Assets/Extensions/IOSNative/iAd/iAdIOSBanner.cs'
+'Assets/Extensions/IOSNative/iAd/iAdIOSInterstitial.cs'
+'Assets/Extensions/IOSNative/iCloud/Templates/iCloudData.cs'
+'Assets/Extensions/IOSNative/iCloud/iCloudManager.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Base/BaseIOSFeaturePreview.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Billing/MarketExample.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Billing/PaymentManagerExample.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/GameCenterExamples/GameCenterExample.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/GameCenterExamples/GameCenterFriendLoadExample.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/GameCenterExamples/LeaderboardCustomGUIExample.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/JSExample/JSHelper.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Multiplayer/MultiplayerManagerExample.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Multiplayer/TBM_Multiplayer_Example.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Multiplayer/ptpGame/GUI/ConnectionButton.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Multiplayer/ptpGame/GUI/DisconnectButton.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Multiplayer/ptpGame/Utils/ByteBuffer.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Multiplayer/ptpGame/managers/ClickManager.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Multiplayer/ptpGame/managers/NetworkManager.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Multiplayer/ptpGame/managers/PTPGameController.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Multiplayer/ptpGame/packages/BasePackage.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Multiplayer/ptpGame/packages/HelloPackage.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Multiplayer/ptpGame/packages/ObjectCreatePackage.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Other/AppEventHandlerExample.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Other/IOSSocialUseExample.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Other/ISNMediaExample.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Other/NativeIOSActionsExample.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Other/NotificationExample.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Other/PopUpExamples.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Other/ReplayKitUseExample.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Other/iCloudUseExample.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Preview/IOSNativeFeaturesPreview.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/Preview/IOSNativePreviewBackButton.cs'
+'Assets/Extensions/IOSNative/xExample/Scripts/iAd Examples/iAdUseExample.cs'
+'Assets/Extensions/StansAssetsCommon/FileStaticAPI.cs'
+'Assets/Extensions/StansAssetsCommon/SA_DataConverter.cs'
+'Assets/Extensions/StansAssetsCommon/SA_IdFactory.cs'
+'Assets/Extensions/StansAssetsCommon/SA_ScreenShotMaker.cs'
+'Assets/Extensions/StansAssetsCommon/SA_Singleton.cs'
+'Assets/Extensions/StansAssetsCommon/WWWTextureLoader.cs'
+'Assets/GAnalyticsManager.cs'
+'Assets/PopulateMenu.cs'
+'Assets/Scripts/BackEnd - Nik/socialButton.cs'
+'Assets/Scripts/FrontEnd - Sam/ChangeSceneAR.cs'
+'Assets/Scripts/FrontEnd - Sam/ClickTest.cs'
+'Assets/Scripts/FrontEnd - Sam/ConvertTextureToSprite.cs'
+'Assets/Scripts/FrontEnd - Sam/Easing.cs'
+'Assets/Scripts/FrontEnd - Sam/FadeObjectInOut.cs'
+'Assets/Scripts/FrontEnd - Sam/GoogleAnalyticsHelper.cs'
+'Assets/Scripts/FrontEnd - Sam/HidePanel.cs'
+'Assets/Scripts/FrontEnd - Sam/MenuExpand.cs'
+'Assets/Scripts/FrontEnd - Sam/OpenWebpage.cs'
+'Assets/Scripts/FrontEnd - Sam/OscHeight.cs'
+'Assets/Scripts/FrontEnd - Sam/PanelSlide.cs'
+'Assets/Scripts/FrontEnd - Sam/PanelSlideScript.cs'
+'Assets/Scripts/FrontEnd - Sam/PicCarousel.cs'
+'Assets/Scripts/FrontEnd - Sam/PicExpand.cs'
+'Assets/Scripts/FrontEnd - Sam/SetICarouselSprite.cs'
+'Assets/Scripts/FrontEnd - Sam/SizeMenuToScreen.cs'
+'Assets/Scripts/FrontEnd - Sam/SplashFade.cs'
+'Assets/Scripts/FrontEnd - Sam/SplashScreenFade.cs'
+'Assets/Scripts/FrontEnd - Sam/TestAnalytics.cs'
+'Assets/Scripts/FrontEnd - Sam/TutorialPanel.cs'
+'Assets/Scripts/FrontEnd - Sam/loadPic.cs'
+'Assets/Scripts/FrontEnd - Sam/rayCaster.cs'
+'Assets/Scripts/FrontEnd - Sam/slideBG.cs'
+'Assets/Scripts/FrontEnd - Sam/touchControllerFB.cs'
+'Assets/Scripts/FrontEnd - Sam/touchControllerGram.cs'
+'Assets/Scripts/FrontEnd - Sam/touchControllerWeb.cs'
+'Assets/Scripts/FrontEnd - Sam/touchFacebookOpen.cs'
+'Assets/Scripts/FrontEnd - Sam/touchInstagramOpen.cs'
+'Assets/Scripts/SamplePushScript.cs'
+'Assets/populateDropdown.cs'
+'Assets/setMenuTransitions.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'

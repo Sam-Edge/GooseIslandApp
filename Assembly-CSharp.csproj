@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{5432E426-19D6-247C-975B-2722B00FD380}</ProjectGuid>
+	<ProjectGuid>{D8BDA7CE-7FAF-7706-9B13-D641825EF2A6}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -219,6 +219,8 @@
      <Compile Include="Assets\Scripts\FrontEnd - Sam\touchControllerWeb.cs" />
      <Compile Include="Assets\Scripts\FrontEnd - Sam\touchFacebookOpen.cs" />
      <Compile Include="Assets\Scripts\FrontEnd - Sam\touchInstagramOpen.cs" />
+     <Compile Include="Assets\Scripts\SamplePushScript.cs" />
+     <Compile Include="Assets\populateDropdown.cs" />
      <Compile Include="Assets\setMenuTransitions.cs" />
      <None Include="Assets\Scripts\FrontEnd - Sam\readme_SDK.txt" />
      <None Include="Assets\Extensions\IOSNative\Documentation\ISN_VersionNotes.txt" />
@@ -246,7 +248,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{10BA8DB7-49ED-A629-10EC-359B4B710350}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{58F7917F-AFAA-C5C8-91F7-1AEA4B1BD61F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
